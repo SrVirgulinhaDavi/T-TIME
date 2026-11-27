@@ -41,9 +41,10 @@ Após, digite o comando para executar ele.
 t-time.exe
 ```
 
-### AVISO
-Se você encerrar o programa fechando o cmd, os minutos estudados daquela sessão serão perdidos, apenas termine o programa pela própria condição de parada dele "espaço"
 Pronto, tudo feito. Agora sempre que for executar o cronômetro você só precisa abrir o prompt de comando pela pasta do arquivo (cmd) e digitar o executável do arquivo 
 ```bash
 t-time.exe
 ```
+
+### AVISO
+Se você encerrar o programa fechando o cmd, os minutos estudados daquela sessão serão perdidos, apenas termine o programa pela própria condição de parada dele "espaço"
