@@ -33,7 +33,15 @@ Crie uma pasta para o arquivo .cpp baixado. Abra essa pasta e na guia de pesquis
 
 Após abrir o prompt de comando do windows, digite o seguinte:
 ```bash
-g++ Core_unificado.cpp -o t-time.exe
+g++ Core_T_TIME_Atualizado.cpp -o t-time.exe
 ```
 E aperte ENTER. Esse processo cria o arquivo executável do código.
-Após digite o comando para executar ele.
+Após, digite o comando para executar ele.
+```bash
+t-time.exe
+```
+
+Pronto, tudo feito. Agora sempre que for executar o cronômetro você só precisa abrir o prompt de comando pela pasta do arquivo (cmd) e digitar o executável do arquivo 
+```bash
+t-time.exe
+```
