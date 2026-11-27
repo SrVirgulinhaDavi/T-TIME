@@ -12,7 +12,13 @@ Aplicação de linha de comando (CLI) desenvolvida em C++ orientado a objetos pa
 * C++ (POO com Herança e Encapsulamento)
 * Bibliotecas padrão: `<chrono>`, `<thread>`, `<fstream>`, `<ctime>`, `<iomanip>` e `<conio.h>` (Windows).
 
-## 💻 Como compilar e executar (Windows)
+## 💻 Pré-requisitos, Compilação e Execução (Windows)
+
+Este projeto utiliza a biblioteca `<conio.h>`, portanto foi desenvolvido para rodar nativamente no **Windows**.
+
+### 1. Verificar ou instalar o compilador (`g++` / MinGW)
+Antes de compilar, abra o **Prompt de Comando (CMD)** ou **PowerShell** e verifique se você já possui o compilador instalado digitando:
 ```bash
-g++ Core_unificado.cpp -o t-time.exe
-./t-time.exe
+g++ --version
+```
+Se aparecer a versão do GCC/g++: Você já tem tudo pronto! Pode pular para o passo 2.
