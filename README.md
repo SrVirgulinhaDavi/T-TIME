@@ -22,3 +22,18 @@ Antes de compilar, abra o **Prompt de Comando (CMD)** ou **PowerShell** e verifi
 g++ --version
 ```
 Se aparecer a versão do GCC/g++: Você já tem tudo pronto! Pode pular para o passo 2.
+
+### 2. Instalando o compilador (`g++` / MinGW)
+Se aparecer "g++ não é reconhecido como um comando interno...": Instale o pacote oficial do MinGW-w64 (WinLibs) diretamente pelo gerenciador de pacotes nativo do Windows (winget) rodando o comando abaixo no CMD:
+Acesse o site oficial msys2.org e clique no botão de download do instalador (msys2-x86_64-....exe). No próprio site já há um tutorial, siga ele.
+
+### 3. Como Compilar e Rodar
+Crie uma pasta para o arquivo .cpp baixado. Abra essa pasta e na guia de pesquisa dela digite apenas "cmd" e aperte ENTER.
+<img width="1902" height="372" alt="Captura de tela 2026-11-27 000127" src="https://github.com/user-attachments/assets/6b7d8ed6-25c5-40a3-ad09-acb8ef0da556" />
+
+Após abrir o prompt de comando do windows, digite o seguinte:
+```bash
+g++ Core_unificado.cpp -o t-time.exe
+```
+E aperte ENTER. Esse processo cria o arquivo executável do código.
+Após digite o comando para executar ele.
